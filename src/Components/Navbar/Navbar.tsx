@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import "../../App.css";
 
 export function Navbar() {
   const [value, setValue] = useState(0);
@@ -12,10 +13,16 @@ export function Navbar() {
 
   return (
     <Box
-      display="flex"
-      justifyContent="flex-end"
-      alignItems="center"
-      paddingTop="2em"
+      className="Nav"
+      sx={{
+        display: "flex",
+        justifyContent: "flex-end",
+        alignItems: "center",
+        paddingTop: "2em",
+        position: "sticky",
+        top: "0",
+        right: "5em",
+      }}
     >
       <Box sx={{ maxWidth: { xs: 320, sm: 480 }, color: "#FFFFFF" }}>
         <Tabs

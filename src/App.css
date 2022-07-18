@@ -4,7 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.Home {
+.Home, .Nav {
   background-color: #0E1F39;
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
 import "../../App.css";
 import { Box, Button, Typography } from "@mui/material";
-import Navbar from "../../Components/Navbar";
 
 function Home() {
   return (
@@ -11,13 +10,11 @@ function Home() {
       paddingX="10em"
       data-testid="portfolio-page"
     >
-      <Navbar />
       <Box
-        marginTop="5em"
         marginLeft="5em"
         display="flex"
         flexDirection="column"
-        gap="20em"
+        gap="20px"
         maxWidth={"50em"}
       >
         <Typography variant="h4" color="#FF31AD">
