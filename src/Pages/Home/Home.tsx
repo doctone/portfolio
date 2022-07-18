@@ -8,10 +8,11 @@ function Home() {
       className="Home"
       height="100vh"
       paddingX="10em"
+      paddingTop="5em"
       data-testid="portfolio-page"
     >
       <Box
-        marginLeft="5em"
+        marginTop="5em"
         display="flex"
         flexDirection="column"
         gap="20px"

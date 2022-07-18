@@ -19,12 +19,13 @@ export function Navbar() {
         justifyContent: "flex-end",
         alignItems: "center",
         paddingTop: "2em",
-        position: "sticky",
-        top: "0",
-        right: "5em",
+        position: "fixed",
+        right: "0",
       }}
     >
-      <Box sx={{ maxWidth: { xs: 320, sm: 480 }, color: "#FFFFFF" }}>
+      <Box
+        sx={{ maxWidth: { xs: 320, sm: 480 }, color: "#FFFFFF", opacity: "1" }}
+      >
         <Tabs
           value={value}
           onChange={handleChange}
