@@ -2,9 +2,17 @@ import React from "react";
 import "../../App.css";
 import { Box, Button, Typography } from "@mui/material";
 
-function Home() {
+function Home({
+  ref,
+  inView,
+}: {
+  ref: (node?: Element | null | undefined) => void;
+  inView: boolean;
+}) {
   return (
     <Box
+      //   ref={ref}
+      //   inView={inView}
       className="Home"
       height="100vh"
       paddingX="10em"

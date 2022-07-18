@@ -20,12 +20,10 @@ export function Navbar() {
         alignItems: "center",
         paddingTop: "2em",
         position: "fixed",
-        right: "0",
+        right: "5em",
       }}
     >
-      <Box
-        sx={{ maxWidth: { xs: 320, sm: 480 }, color: "#FFFFFF", opacity: "1" }}
-      >
+      <Box sx={{ maxWidth: { xs: 320, sm: 480 }, color: "#FFFFFF" }}>
         <Tabs
           value={value}
           onChange={handleChange}
