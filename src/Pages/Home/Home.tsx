@@ -6,8 +6,8 @@ function Home({
   ref,
   inView,
 }: {
-  ref: (node?: Element | null | undefined) => void;
-  inView: boolean;
+  ref?: (node?: Element | null | undefined) => void;
+  inView?: boolean;
 }) {
   return (
     <Box
@@ -30,7 +30,7 @@ function Home({
           Hi, my name is
         </Typography>
         <Typography variant="h1" color="#ffffff">
-          Sam James
+          Sam Jones
         </Typography>
         <Typography variant="h2" color="#B0B5BC">
           Full Stack Developer. Desiging and implementing interactive web
