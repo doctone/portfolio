@@ -9,19 +9,20 @@ function AboutMe() {
       sx={{
         height: "100vh",
         paddingX: "10em",
-        paddingTop: "10em",
       }}
     >
       <Box
         sx={{
+          paddingTop: "10em",
           color: "#ffffff",
-          borderTop: "2px solid #FF31AD",
           maxWidth: "40vw",
         }}
       >
-        <Typography variant="h4" sx={{ marginBottom: "60px" }}>
-          About me
-        </Typography>
+        <Box sx={{ borderTop: "2px solid #FF31AD", paddingTop: "3em" }}>
+          <Typography variant="h4" sx={{ marginBottom: "60px" }}>
+            About me
+          </Typography>
+        </Box>
         <Typography
           variant="subtitle1"
           sx={{ color: "#B0B5BC", marginBottom: "30px" }}

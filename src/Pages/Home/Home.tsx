@@ -30,7 +30,7 @@ function Home({
           Hi, my name is
         </Typography>
         <Typography variant="h1" color="#ffffff">
-          Sam Jones
+          Sam James
         </Typography>
         <Typography variant="h2" color="#B0B5BC">
           Full Stack Developer. Desiging and implementing interactive web
