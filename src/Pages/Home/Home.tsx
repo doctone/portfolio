@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import { Box, Button, Typography } from "@mui/material";
+import IconList from "../../Components/IconList";
 
 function Home({
   ref,
@@ -45,7 +46,7 @@ function Home({
           Get in touch!
         </Button>
       </Box>
-      {/* <IconList /> */}
+      <IconList />
     </Box>
   );
 }
